@@ -43,7 +43,7 @@ signup.addEventListener('click', async e => {
         //     })
     
         
-        const { data, error } = await database.auth.user({
+        const { data, error } = await database.auth.signUp({
             email: email,
             password: password
         })
