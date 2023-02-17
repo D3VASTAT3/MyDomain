@@ -22,6 +22,10 @@ login.addEventListener('click', async e => {
 
         console.log(data,error);
         
+        if(error){
+            alert('Wrong credentials!');
+        }
+        
         if(data.session.user.email === email){
             alert('welcome!');
             window.location.replace("https://youtu.be/dQw4w9WgXcQ");
