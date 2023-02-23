@@ -1,1 +1,0 @@
-const filteraddspace = user.filter((user) => auth.uid() = user_id)
