@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>pfast</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
+    <link rel="stylesheet" href="assets/css/body.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="assets/css/myspace.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+</head>
+
+<body style="background: url(&quot;assets/img/pexels-gradienta-7130492.jpg&quot;);background-size: auto;">
+    <ul class="nav nav-tabs" style="background: rgba(255,255,255,0.79);">
+        <li class="nav-item"><a class="nav-link nav-link" id="link-dashboard" href="#" onclick="window.location.replace(&quot;./HomePage.html&quot;)"><i class="material-icons">dashboard</i><span class="nav-text">Home Page</span></a></li>
+        <li class="nav-item"><a class="nav-link nav-link" id="link-profile" href="#" onclick="window.location.replace(&quot;./MyParking.html&quot;)"><i class="material-icons">account_circle</i><span class="nav-text">My Parking</span></a></li>
+        <li class="nav-item"><a class="nav-link nav-link" id="link-devices" href="#" onclick="window.location.replace(&quot;./MySpace.html&quot;)"><i class="material-icons">devices</i><span class="nav-text">My Spaces</span></a></li>
+        <li class="nav-item"><a class="nav-link nav-link" id="link-settings" href="#" onclick="window.location.replace(&quot;./Menu.html&quot;)"><i class="material-icons">settings</i><span class="nav-text">Menu</span></a></li>
+    </ul>
+    <div class="myspaceslist">
+        <div class="card">
+            <div class="card-body" style="background: #ffffff;">
+                <h4 class="card-title" style="font-size: 32px;font-weight: bold;">Title<button class="btn btn-primary" type="button" style="margin: 0px;margin-right: 13px;margin-left: 13px;">Edit</button><button class="btn btn-primary" type="button" style="background: var(--bs-red);border-color: var(--bs-card-cap-bg);">Remove</button></h4>
+                <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
+                <div>
+                    <div class="btn-group btn-group-toggle" data-bs-toggle="buttons"><label class="form-label btn btn-secondary active">Full<input type="radio" name="options" checked=""></label><label class="form-label btn btn-secondary">Not Full<input type="radio" name="options" checked=""></label></div>
+                </div>
+                <div>
+                    <div class="btn-group btn-group-toggle" data-bs-toggle="buttons"><label class="form-label btn btn-secondary active">Close<input type="radio" name="options1" checked=""></label><label class="form-label btn btn-secondary">Open<input type="radio" name="options1" checked=""></label></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-container" style="color: rgb(241,243,245);">
+        <div class="modal fade" role="dialog" tabindex="-1" id="modal-1">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title">Add Spaces</h1><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post"><label class="form-label">Upload parking lot/space image</label><input class="form-control" type="file" id="space-image" accept="image/*"><label class="form-label">Proof of the lot/space title</label><input class="form-control" type="file" id="title-image" accept="image/*"><input class="form-control inpt" type="text" id="parking-name" placeholder="Parking name"><input class="form-control inpt" type="text" id="address" placeholder="Address"></form>
+                    </div>
+                    <div class="modal-footer"><button class="btn btn-light" type="button" data-bs-dismiss="modal">Cancel</button><button class="btn btn-primary" type="button" style="width: 72.7344px;">Add</button></div>
+                </div>
+            </div>
+        </div><button class="btn btn-primary" type="button" data-whatever="@mdo" data-bs-target="#modal-1" data-bs-toggle="modal" style="width: 191.141px;background: rgba(13,110,253,0.89);color: rgb(255,255,255);"><span style="color: rgb(33, 37, 41); background-color: transparent;">Add Spaces</span><br></button>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.7.1/dist/umd/supabase.min.js"></script>
+    <script src="assets/js/myspace.js"></script>
+    <script src="assets/js/nav.js"></script>
+</body>
+
+</html>
