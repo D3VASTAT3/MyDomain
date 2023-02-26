@@ -1,0 +1,22 @@
+import Navbar from "./nav";
+
+import { useEffect, useState } from "react";
+import { Navigate } from "react-router-dom";
+
+const Menu = () => {
+
+    return (
+      <>
+        <div>
+            <h2>Menu</h2>
+        </div>
+
+        <Navbar/>
+      </>
+        
+    )
+
+    
+}
+
+export default Menu
