@@ -45,8 +45,8 @@ const Menu = () => {
             <div className="text-center align-items-center menu-buttons">
               <button className="btn btn-primary menu-button-select" type="button">Account Information</button>
               <button className="btn btn-primary menu-button-select" type="button">Account Settings</button>
-              <button className="btn btn-primary menu-button-select" type="button">Vehicle</button>
-              <button className="btn btn-primary menu-button-select" type="button">My Spaces</button>
+//               <button className="btn btn-primary menu-button-select" type="button">Vehicle</button>
+//               <button className="btn btn-primary menu-button-select" type="button">My Spaces</button>
             </div>
           </div>
           <div className="d-flex justify-content-center logout-btn-container" style={{marginTop: 18,marginBottom: 18,marginLeft: 9,marginRight: 9}}>
