@@ -1,0 +1,63 @@
+  .accinfo-container .rf-register-form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    /* position: absolute; */
+    width: 438px;
+    height: 100px;
+  }
+  
+  .accinfo-container * {
+    box-sizing: border-box;
+  }
+  
+  .accinfo-container .rf-input-container {
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .accinfo-container .rg-form {
+    margin: auto;
+  }
+  
+  .accinfo-container .rf-icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .accinfo-container .rf-input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 0;
+  }
+  
+  .accinfo-container .rf-input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  .accinfo-container .rf-btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 0;
+  }
+  
+  .accinfo-container .rf-btn:hover {
+    opacity: 1;
+  }
+  
+  .accinfo-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
